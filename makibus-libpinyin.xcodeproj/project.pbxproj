@@ -15,6 +15,34 @@
 		142857B526D965C100480DF0 /* MacOSIMETheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 142857AE26D965C100480DF0 /* MacOSIMETheme.m */; };
 		142857B626D965C100480DF0 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 142857AF26D965C100480DF0 /* next.png */; };
 		142857B726D965C100480DF0 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 142857B026D965C100480DF0 /* prev.png */; };
+		1428580326D967F300480DF0 /* PYSimpTradConverter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857BA26D967F200480DF0 /* PYSimpTradConverter.cc */; };
+		1428580426D967F300480DF0 /* PYStrokeEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857BD26D967F200480DF0 /* PYStrokeEditor.cc */; };
+		1428580526D967F300480DF0 /* PYHalfFullConverter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857C026D967F200480DF0 /* PYHalfFullConverter.cc */; };
+		1428580626D967F300480DF0 /* PYPTradCandidates.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857C126D967F200480DF0 /* PYPTradCandidates.cc */; };
+		1428580826D967F300480DF0 /* PYPEmojiCandidates.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857C626D967F200480DF0 /* PYPEmojiCandidates.cc */; };
+		1428580926D967F300480DF0 /* PYPPinyinEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857C926D967F200480DF0 /* PYPPinyinEditor.cc */; };
+		1428580A26D967F300480DF0 /* PYLibPinyin.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857CA26D967F200480DF0 /* PYLibPinyin.cc */; };
+		1428580B26D967F300480DF0 /* PYPinyinProperties.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857CB26D967F200480DF0 /* PYPinyinProperties.cc */; };
+		1428580C26D967F300480DF0 /* PYEngine.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857CC26D967F200480DF0 /* PYEngine.cc */; };
+		1428580D26D967F300480DF0 /* PYPLuaTriggerCandidates.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857CD26D967F200480DF0 /* PYPLuaTriggerCandidates.cc */; };
+		1428580E26D967F300480DF0 /* PYPCloudCandidates.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857CF26D967F200480DF0 /* PYPCloudCandidates.cc */; };
+		1428580F26D967F300480DF0 /* PYPLuaConverterCandidates.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857D026D967F200480DF0 /* PYPLuaConverterCandidates.cc */; };
+		1428581026D967F300480DF0 /* PYEnglishEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857D326D967F200480DF0 /* PYEnglishEditor.cc */; };
+		1428581126D967F300480DF0 /* PYEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857D426D967F200480DF0 /* PYEditor.cc */; };
+		1428581226D967F300480DF0 /* PYPunctEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857D526D967F200480DF0 /* PYPunctEditor.cc */; };
+		1428581326D967F300480DF0 /* PYFallbackEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857D726D967F200480DF0 /* PYFallbackEditor.cc */; };
+		1428581426D967F300480DF0 /* special_table in Resources */ = {isa = PBXBuildFile; fileRef = 142857DA26D967F200480DF0 /* special_table */; };
+		1428581526D967F300480DF0 /* PYPFullPinyinEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857DB26D967F200480DF0 /* PYPFullPinyinEditor.cc */; };
+		1428581626D967F300480DF0 /* PYPPhoneticEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857DD26D967F200480DF0 /* PYPPhoneticEditor.cc */; };
+		1428581726D967F300480DF0 /* PYExtEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857DE26D967F200480DF0 /* PYExtEditor.cc */; };
+		1428581826D967F300480DF0 /* PYPPinyinEngine.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857E026D967F200480DF0 /* PYPPinyinEngine.cc */; };
+		1428581926D967F300480DF0 /* PYPSuggestionCandidates.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857E126D967F200480DF0 /* PYPSuggestionCandidates.cc */; };
+		1428581A26D967F300480DF0 /* PYPBopomofoEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857E426D967F200480DF0 /* PYPBopomofoEditor.cc */; };
+		1428581B26D967F300480DF0 /* PYPDoublePinyinEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857E926D967F200480DF0 /* PYPDoublePinyinEditor.cc */; };
+		1428581C26D967F300480DF0 /* PYPConfig.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857EE26D967F200480DF0 /* PYPConfig.cc */; };
+		1428581D26D967F300480DF0 /* PYPLibPinyinCandidates.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857F226D967F200480DF0 /* PYPLibPinyinCandidates.cc */; };
+		1428581E26D967F300480DF0 /* PYPSuggestionEditor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857F726D967F200480DF0 /* PYPSuggestionEditor.cc */; };
+		1428581F26D967F300480DF0 /* PYConfig.cc in Sources */ = {isa = PBXBuildFile; fileRef = 142857FA26D967F200480DF0 /* PYConfig.cc */; };
 		144009C825F8CD4B0023D072 /* LibpinyinFullPinyinEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 144009C725F8CD4B0023D072 /* LibpinyinFullPinyinEditor.m */; };
 		144009D025F8D96F0023D072 /* LibpinyinBackend.m in Sources */ = {isa = PBXBuildFile; fileRef = 144009CF25F8D96F0023D072 /* LibpinyinBackend.m */; };
 		144009E725F933EC0023D072 /* MakibusLibpinyinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144009E625F933EC0023D072 /* MakibusLibpinyinController.m */; };
@@ -75,6 +103,112 @@
 		142857AE26D965C100480DF0 /* MacOSIMETheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacOSIMETheme.m; sourceTree = "<group>"; };
 		142857AF26D965C100480DF0 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 		142857B026D965C100480DF0 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
+		142857BA26D967F200480DF0 /* PYSimpTradConverter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYSimpTradConverter.cc; path = "ibus-libpinyin/src/PYSimpTradConverter.cc"; sourceTree = "<group>"; };
+		142857BB26D967F200480DF0 /* PYExtEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYExtEditor.h; path = "ibus-libpinyin/src/PYExtEditor.h"; sourceTree = "<group>"; };
+		142857BC26D967F200480DF0 /* PYPLuaConverterCandidates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPLuaConverterCandidates.h; path = "ibus-libpinyin/src/PYPLuaConverterCandidates.h"; sourceTree = "<group>"; };
+		142857BD26D967F200480DF0 /* PYStrokeEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYStrokeEditor.cc; path = "ibus-libpinyin/src/PYStrokeEditor.cc"; sourceTree = "<group>"; };
+		142857BE26D967F200480DF0 /* PYPFullPinyinEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPFullPinyinEditor.h; path = "ibus-libpinyin/src/PYPFullPinyinEditor.h"; sourceTree = "<group>"; };
+		142857BF26D967F200480DF0 /* PYString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYString.h; path = "ibus-libpinyin/src/PYString.h"; sourceTree = "<group>"; };
+		142857C026D967F200480DF0 /* PYHalfFullConverter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYHalfFullConverter.cc; path = "ibus-libpinyin/src/PYHalfFullConverter.cc"; sourceTree = "<group>"; };
+		142857C126D967F200480DF0 /* PYPTradCandidates.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPTradCandidates.cc; path = "ibus-libpinyin/src/PYPTradCandidates.cc"; sourceTree = "<group>"; };
+		142857C326D967F200480DF0 /* PYPLuaTriggerCandidates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPLuaTriggerCandidates.h; path = "ibus-libpinyin/src/PYPLuaTriggerCandidates.h"; sourceTree = "<group>"; };
+		142857C426D967F200480DF0 /* PYPBopomofoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPBopomofoEditor.h; path = "ibus-libpinyin/src/PYPBopomofoEditor.h"; sourceTree = "<group>"; };
+		142857C526D967F200480DF0 /* PYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYText.h; path = "ibus-libpinyin/src/PYText.h"; sourceTree = "<group>"; };
+		142857C626D967F200480DF0 /* PYPEmojiCandidates.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPEmojiCandidates.cc; path = "ibus-libpinyin/src/PYPEmojiCandidates.cc"; sourceTree = "<group>"; };
+		142857C726D967F200480DF0 /* PYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYUtil.h; path = "ibus-libpinyin/src/PYUtil.h"; sourceTree = "<group>"; };
+		142857C826D967F200480DF0 /* PYPDoublePinyinEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPDoublePinyinEditor.h; path = "ibus-libpinyin/src/PYPDoublePinyinEditor.h"; sourceTree = "<group>"; };
+		142857C926D967F200480DF0 /* PYPPinyinEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPPinyinEditor.cc; path = "ibus-libpinyin/src/PYPPinyinEditor.cc"; sourceTree = "<group>"; };
+		142857CA26D967F200480DF0 /* PYLibPinyin.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYLibPinyin.cc; path = "ibus-libpinyin/src/PYLibPinyin.cc"; sourceTree = "<group>"; };
+		142857CB26D967F200480DF0 /* PYPinyinProperties.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPinyinProperties.cc; path = "ibus-libpinyin/src/PYPinyinProperties.cc"; sourceTree = "<group>"; };
+		142857CC26D967F200480DF0 /* PYEngine.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYEngine.cc; path = "ibus-libpinyin/src/PYEngine.cc"; sourceTree = "<group>"; };
+		142857CD26D967F200480DF0 /* PYPLuaTriggerCandidates.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPLuaTriggerCandidates.cc; path = "ibus-libpinyin/src/PYPLuaTriggerCandidates.cc"; sourceTree = "<group>"; };
+		142857CE26D967F200480DF0 /* PYPPinyinEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPPinyinEditor.h; path = "ibus-libpinyin/src/PYPPinyinEditor.h"; sourceTree = "<group>"; };
+		142857CF26D967F200480DF0 /* PYPCloudCandidates.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPCloudCandidates.cc; path = "ibus-libpinyin/src/PYPCloudCandidates.cc"; sourceTree = "<group>"; };
+		142857D026D967F200480DF0 /* PYPLuaConverterCandidates.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPLuaConverterCandidates.cc; path = "ibus-libpinyin/src/PYPLuaConverterCandidates.cc"; sourceTree = "<group>"; };
+		142857D126D967F200480DF0 /* PYPunctEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPunctEditor.h; path = "ibus-libpinyin/src/PYPunctEditor.h"; sourceTree = "<group>"; };
+		142857D226D967F200480DF0 /* PYProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYProperty.h; path = "ibus-libpinyin/src/PYProperty.h"; sourceTree = "<group>"; };
+		142857D326D967F200480DF0 /* PYEnglishEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYEnglishEditor.cc; path = "ibus-libpinyin/src/PYEnglishEditor.cc"; sourceTree = "<group>"; };
+		142857D426D967F200480DF0 /* PYEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYEditor.cc; path = "ibus-libpinyin/src/PYEditor.cc"; sourceTree = "<group>"; };
+		142857D526D967F200480DF0 /* PYPunctEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPunctEditor.cc; path = "ibus-libpinyin/src/PYPunctEditor.cc"; sourceTree = "<group>"; };
+		142857D626D967F200480DF0 /* PYTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYTypes.h; path = "ibus-libpinyin/src/PYTypes.h"; sourceTree = "<group>"; };
+		142857D726D967F200480DF0 /* PYFallbackEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYFallbackEditor.cc; path = "ibus-libpinyin/src/PYFallbackEditor.cc"; sourceTree = "<group>"; };
+		142857D826D967F200480DF0 /* PYPSuggestionEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPSuggestionEditor.h; path = "ibus-libpinyin/src/PYPSuggestionEditor.h"; sourceTree = "<group>"; };
+		142857D926D967F200480DF0 /* PYSimpTradConverterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYSimpTradConverterTable.h; path = "ibus-libpinyin/src/PYSimpTradConverterTable.h"; sourceTree = "<group>"; };
+		142857DA26D967F200480DF0 /* special_table */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = special_table; path = "ibus-libpinyin/src/special_table"; sourceTree = "<group>"; };
+		142857DB26D967F200480DF0 /* PYPFullPinyinEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPFullPinyinEditor.cc; path = "ibus-libpinyin/src/PYPFullPinyinEditor.cc"; sourceTree = "<group>"; };
+		142857DC26D967F200480DF0 /* PYLookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYLookupTable.h; path = "ibus-libpinyin/src/PYLookupTable.h"; sourceTree = "<group>"; };
+		142857DD26D967F200480DF0 /* PYPPhoneticEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPPhoneticEditor.cc; path = "ibus-libpinyin/src/PYPPhoneticEditor.cc"; sourceTree = "<group>"; };
+		142857DE26D967F200480DF0 /* PYExtEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYExtEditor.cc; path = "ibus-libpinyin/src/PYExtEditor.cc"; sourceTree = "<group>"; };
+		142857DF26D967F200480DF0 /* PYSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYSignal.h; path = "ibus-libpinyin/src/PYSignal.h"; sourceTree = "<group>"; };
+		142857E026D967F200480DF0 /* PYPPinyinEngine.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPPinyinEngine.cc; path = "ibus-libpinyin/src/PYPPinyinEngine.cc"; sourceTree = "<group>"; };
+		142857E126D967F200480DF0 /* PYPSuggestionCandidates.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPSuggestionCandidates.cc; path = "ibus-libpinyin/src/PYPSuggestionCandidates.cc"; sourceTree = "<group>"; };
+		142857E226D967F200480DF0 /* PYRawEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYRawEditor.h; path = "ibus-libpinyin/src/PYRawEditor.h"; sourceTree = "<group>"; };
+		142857E326D967F200480DF0 /* PYPPhoneticEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPPhoneticEditor.h; path = "ibus-libpinyin/src/PYPPhoneticEditor.h"; sourceTree = "<group>"; };
+		142857E426D967F200480DF0 /* PYPBopomofoEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPBopomofoEditor.cc; path = "ibus-libpinyin/src/PYPBopomofoEditor.cc"; sourceTree = "<group>"; };
+		142857E526D967F200480DF0 /* PYPEnhancedCandidates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPEnhancedCandidates.h; path = "ibus-libpinyin/src/PYPEnhancedCandidates.h"; sourceTree = "<group>"; };
+		142857E626D967F200480DF0 /* PYPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPointer.h; path = "ibus-libpinyin/src/PYPointer.h"; sourceTree = "<group>"; };
+		142857E726D967F200480DF0 /* PYPTradCandidates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPTradCandidates.h; path = "ibus-libpinyin/src/PYPTradCandidates.h"; sourceTree = "<group>"; };
+		142857E826D967F200480DF0 /* PYEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEditor.h; path = "ibus-libpinyin/src/PYEditor.h"; sourceTree = "<group>"; };
+		142857E926D967F200480DF0 /* PYPDoublePinyinEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPDoublePinyinEditor.cc; path = "ibus-libpinyin/src/PYPDoublePinyinEditor.cc"; sourceTree = "<group>"; };
+		142857EA26D967F200480DF0 /* PYHalfFullConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYHalfFullConverter.h; path = "ibus-libpinyin/src/PYHalfFullConverter.h"; sourceTree = "<group>"; };
+		142857EB26D967F200480DF0 /* PYLibPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYLibPinyin.h; path = "ibus-libpinyin/src/PYLibPinyin.h"; sourceTree = "<group>"; };
+		142857EC26D967F200480DF0 /* PYPCloudCandidates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPCloudCandidates.h; path = "ibus-libpinyin/src/PYPCloudCandidates.h"; sourceTree = "<group>"; };
+		142857ED26D967F200480DF0 /* PYPLibPinyinCandidates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPLibPinyinCandidates.h; path = "ibus-libpinyin/src/PYPLibPinyinCandidates.h"; sourceTree = "<group>"; };
+		142857EE26D967F200480DF0 /* PYPConfig.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPConfig.cc; path = "ibus-libpinyin/src/PYPConfig.cc"; sourceTree = "<group>"; };
+		142857EF26D967F200480DF0 /* PYPEmojiTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPEmojiTable.h; path = "ibus-libpinyin/src/PYPEmojiTable.h"; sourceTree = "<group>"; };
+		142857F026D967F200480DF0 /* PYObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYObject.h; path = "ibus-libpinyin/src/PYObject.h"; sourceTree = "<group>"; };
+		142857F126D967F200480DF0 /* PYPEmojiCandidates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPEmojiCandidates.h; path = "ibus-libpinyin/src/PYPEmojiCandidates.h"; sourceTree = "<group>"; };
+		142857F226D967F200480DF0 /* PYPLibPinyinCandidates.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPLibPinyinCandidates.cc; path = "ibus-libpinyin/src/PYPLibPinyinCandidates.cc"; sourceTree = "<group>"; };
+		142857F326D967F200480DF0 /* PYPPinyinEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPPinyinEngine.h; path = "ibus-libpinyin/src/PYPPinyinEngine.h"; sourceTree = "<group>"; };
+		142857F426D967F200480DF0 /* PYStrokeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYStrokeEditor.h; path = "ibus-libpinyin/src/PYStrokeEditor.h"; sourceTree = "<group>"; };
+		142857F526D967F200480DF0 /* PYPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPConfig.h; path = "ibus-libpinyin/src/PYPConfig.h"; sourceTree = "<group>"; };
+		142857F626D967F200480DF0 /* PYEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEngine.h; path = "ibus-libpinyin/src/PYEngine.h"; sourceTree = "<group>"; };
+		142857F726D967F200480DF0 /* PYPSuggestionEditor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYPSuggestionEditor.cc; path = "ibus-libpinyin/src/PYPSuggestionEditor.cc"; sourceTree = "<group>"; };
+		142857F826D967F200480DF0 /* PYPunctTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPunctTable.h; path = "ibus-libpinyin/src/PYPunctTable.h"; sourceTree = "<group>"; };
+		142857F926D967F200480DF0 /* PYEnglishEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYEnglishEditor.h; path = "ibus-libpinyin/src/PYEnglishEditor.h"; sourceTree = "<group>"; };
+		142857FA26D967F200480DF0 /* PYConfig.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PYConfig.cc; path = "ibus-libpinyin/src/PYConfig.cc"; sourceTree = "<group>"; };
+		142857FB26D967F200480DF0 /* PYPSuggestionCandidates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPSuggestionCandidates.h; path = "ibus-libpinyin/src/PYPSuggestionCandidates.h"; sourceTree = "<group>"; };
+		142857FD26D967F200480DF0 /* PYConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYConfig.h; path = "ibus-libpinyin/src/PYConfig.h"; sourceTree = "<group>"; };
+		142857FF26D967F200480DF0 /* PYSimpTradConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYSimpTradConverter.h; path = "ibus-libpinyin/src/PYSimpTradConverter.h"; sourceTree = "<group>"; };
+		1428580126D967F300480DF0 /* PYFallbackEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYFallbackEditor.h; path = "ibus-libpinyin/src/PYFallbackEditor.h"; sourceTree = "<group>"; };
+		1428580226D967F300480DF0 /* PYPinyinProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYPinyinProperties.h; path = "ibus-libpinyin/src/PYPinyinProperties.h"; sourceTree = "<group>"; };
+		1428582526D9741300480DF0 /* ibusenginedesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusenginedesc.h; sourceTree = "<group>"; };
+		1428582626D9741300480DF0 /* ibusproperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusproperty.h; sourceTree = "<group>"; };
+		1428582726D9741300480DF0 /* ibusattrlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusattrlist.h; sourceTree = "<group>"; };
+		1428582826D9741300480DF0 /* ibusinputcontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusinputcontext.h; sourceTree = "<group>"; };
+		1428582926D9741300480DF0 /* ibusobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusobject.h; sourceTree = "<group>"; };
+		1428582A26D9741300480DF0 /* ibusbus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusbus.h; sourceTree = "<group>"; };
+		1428582B26D9741300480DF0 /* ibusservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusservice.h; sourceTree = "<group>"; };
+		1428582C26D9741300480DF0 /* ibusversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusversion.h; sourceTree = "<group>"; };
+		1428582D26D9741300480DF0 /* ibustypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibustypes.h; sourceTree = "<group>"; };
+		1428582E26D9741300480DF0 /* ibustext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibustext.h; sourceTree = "<group>"; };
+		1428582F26D9741300480DF0 /* ibuskeymap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibuskeymap.h; sourceTree = "<group>"; };
+		1428583026D9741300480DF0 /* ibusattribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusattribute.h; sourceTree = "<group>"; };
+		1428583126D9741300480DF0 /* ibus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibus.h; sourceTree = "<group>"; };
+		1428583226D9741300480DF0 /* ibusdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusdebug.h; sourceTree = "<group>"; };
+		1428583326D9741300480DF0 /* ibuskeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibuskeys.h; sourceTree = "<group>"; };
+		1428583426D9741300480DF0 /* ibusserializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusserializable.h; sourceTree = "<group>"; };
+		1428583526D9741300480DF0 /* ibuscomponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibuscomponent.h; sourceTree = "<group>"; };
+		1428583626D9741300480DF0 /* ibushotkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibushotkey.h; sourceTree = "<group>"; };
+		1428583726D9741300480DF0 /* ibuserror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibuserror.h; sourceTree = "<group>"; };
+		1428583826D9741300480DF0 /* ibusenumtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusenumtypes.h; sourceTree = "<group>"; };
+		1428583926D9741300480DF0 /* ibusconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusconfig.h; sourceTree = "<group>"; };
+		1428583A26D9741300480DF0 /* ibuskeysyms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibuskeysyms.h; sourceTree = "<group>"; };
+		1428583B26D9741300480DF0 /* ibuslookuptable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibuslookuptable.h; sourceTree = "<group>"; };
+		1428583C26D9741300480DF0 /* ibusemoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusemoji.h; sourceTree = "<group>"; };
+		1428583D26D9741300480DF0 /* ibusxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusxml.h; sourceTree = "<group>"; };
+		1428583E26D9741300480DF0 /* ibuspanelservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibuspanelservice.h; sourceTree = "<group>"; };
+		1428583F26D9741300480DF0 /* ibusengine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusengine.h; sourceTree = "<group>"; };
+		1428584026D9741300480DF0 /* ibusconfigservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusconfigservice.h; sourceTree = "<group>"; };
+		1428584126D9741300480DF0 /* ibusregistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusregistry.h; sourceTree = "<group>"; };
+		1428584226D9741300480DF0 /* ibusutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusutil.h; sourceTree = "<group>"; };
+		1428584326D9741300480DF0 /* ibusenginesimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusenginesimple.h; sourceTree = "<group>"; };
+		1428584426D9741300480DF0 /* ibusshare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusshare.h; sourceTree = "<group>"; };
+		1428584526D9741300480DF0 /* ibusfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusfactory.h; sourceTree = "<group>"; };
+		1428584626D9741300480DF0 /* ibusproplist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusproplist.h; sourceTree = "<group>"; };
+		1428584726D9741300480DF0 /* ibusproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusproxy.h; sourceTree = "<group>"; };
+		1428584826D9741300480DF0 /* ibusobservedpath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibusobservedpath.h; sourceTree = "<group>"; };
+		1428584926D9741300480DF0 /* ibuskeysyms-compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ibuskeysyms-compat.h"; sourceTree = "<group>"; };
 		144009C625F8CD4B0023D072 /* LibpinyinFullPinyinEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibpinyinFullPinyinEditor.h; sourceTree = "<group>"; };
 		144009C725F8CD4B0023D072 /* LibpinyinFullPinyinEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibpinyinFullPinyinEditor.m; sourceTree = "<group>"; };
 		144009CE25F8D96F0023D072 /* LibpinyinBackend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibpinyinBackend.h; sourceTree = "<group>"; };
@@ -171,9 +305,139 @@
 			path = "macos-ime-panel";
 			sourceTree = "<group>";
 		};
+		142857B926D967C400480DF0 /* ibus-libpinyin */ = {
+			isa = PBXGroup;
+			children = (
+				142857FA26D967F200480DF0 /* PYConfig.cc */,
+				142857FD26D967F200480DF0 /* PYConfig.h */,
+				142857D426D967F200480DF0 /* PYEditor.cc */,
+				142857E826D967F200480DF0 /* PYEditor.h */,
+				142857CC26D967F200480DF0 /* PYEngine.cc */,
+				142857F626D967F200480DF0 /* PYEngine.h */,
+				142857D326D967F200480DF0 /* PYEnglishEditor.cc */,
+				142857F926D967F200480DF0 /* PYEnglishEditor.h */,
+				142857DE26D967F200480DF0 /* PYExtEditor.cc */,
+				142857BB26D967F200480DF0 /* PYExtEditor.h */,
+				142857D726D967F200480DF0 /* PYFallbackEditor.cc */,
+				1428580126D967F300480DF0 /* PYFallbackEditor.h */,
+				142857C026D967F200480DF0 /* PYHalfFullConverter.cc */,
+				142857EA26D967F200480DF0 /* PYHalfFullConverter.h */,
+				142857CA26D967F200480DF0 /* PYLibPinyin.cc */,
+				142857EB26D967F200480DF0 /* PYLibPinyin.h */,
+				142857DC26D967F200480DF0 /* PYLookupTable.h */,
+				142857F026D967F200480DF0 /* PYObject.h */,
+				142857E426D967F200480DF0 /* PYPBopomofoEditor.cc */,
+				142857C426D967F200480DF0 /* PYPBopomofoEditor.h */,
+				142857CF26D967F200480DF0 /* PYPCloudCandidates.cc */,
+				142857EC26D967F200480DF0 /* PYPCloudCandidates.h */,
+				142857EE26D967F200480DF0 /* PYPConfig.cc */,
+				142857F526D967F200480DF0 /* PYPConfig.h */,
+				142857E926D967F200480DF0 /* PYPDoublePinyinEditor.cc */,
+				142857C826D967F200480DF0 /* PYPDoublePinyinEditor.h */,
+				142857C626D967F200480DF0 /* PYPEmojiCandidates.cc */,
+				142857F126D967F200480DF0 /* PYPEmojiCandidates.h */,
+				142857EF26D967F200480DF0 /* PYPEmojiTable.h */,
+				142857E526D967F200480DF0 /* PYPEnhancedCandidates.h */,
+				142857DB26D967F200480DF0 /* PYPFullPinyinEditor.cc */,
+				142857BE26D967F200480DF0 /* PYPFullPinyinEditor.h */,
+				142857CB26D967F200480DF0 /* PYPinyinProperties.cc */,
+				1428580226D967F300480DF0 /* PYPinyinProperties.h */,
+				142857F226D967F200480DF0 /* PYPLibPinyinCandidates.cc */,
+				142857ED26D967F200480DF0 /* PYPLibPinyinCandidates.h */,
+				142857D026D967F200480DF0 /* PYPLuaConverterCandidates.cc */,
+				142857BC26D967F200480DF0 /* PYPLuaConverterCandidates.h */,
+				142857CD26D967F200480DF0 /* PYPLuaTriggerCandidates.cc */,
+				142857C326D967F200480DF0 /* PYPLuaTriggerCandidates.h */,
+				142857E626D967F200480DF0 /* PYPointer.h */,
+				142857DD26D967F200480DF0 /* PYPPhoneticEditor.cc */,
+				142857E326D967F200480DF0 /* PYPPhoneticEditor.h */,
+				142857C926D967F200480DF0 /* PYPPinyinEditor.cc */,
+				142857CE26D967F200480DF0 /* PYPPinyinEditor.h */,
+				142857E026D967F200480DF0 /* PYPPinyinEngine.cc */,
+				142857F326D967F200480DF0 /* PYPPinyinEngine.h */,
+				142857D226D967F200480DF0 /* PYProperty.h */,
+				142857E126D967F200480DF0 /* PYPSuggestionCandidates.cc */,
+				142857FB26D967F200480DF0 /* PYPSuggestionCandidates.h */,
+				142857F726D967F200480DF0 /* PYPSuggestionEditor.cc */,
+				142857D826D967F200480DF0 /* PYPSuggestionEditor.h */,
+				142857C126D967F200480DF0 /* PYPTradCandidates.cc */,
+				142857E726D967F200480DF0 /* PYPTradCandidates.h */,
+				142857D526D967F200480DF0 /* PYPunctEditor.cc */,
+				142857D126D967F200480DF0 /* PYPunctEditor.h */,
+				142857F826D967F200480DF0 /* PYPunctTable.h */,
+				142857E226D967F200480DF0 /* PYRawEditor.h */,
+				142857DF26D967F200480DF0 /* PYSignal.h */,
+				142857BA26D967F200480DF0 /* PYSimpTradConverter.cc */,
+				142857FF26D967F200480DF0 /* PYSimpTradConverter.h */,
+				142857D926D967F200480DF0 /* PYSimpTradConverterTable.h */,
+				142857BF26D967F200480DF0 /* PYString.h */,
+				142857BD26D967F200480DF0 /* PYStrokeEditor.cc */,
+				142857F426D967F200480DF0 /* PYStrokeEditor.h */,
+				142857C526D967F200480DF0 /* PYText.h */,
+				142857D626D967F200480DF0 /* PYTypes.h */,
+				142857C726D967F200480DF0 /* PYUtil.h */,
+				142857DA26D967F200480DF0 /* special_table */,
+			);
+			name = "ibus-libpinyin";
+			sourceTree = "<group>";
+		};
+		1428582126D967FD00480DF0 /* makibus */ = {
+			isa = PBXGroup;
+			children = (
+				1428582426D9741300480DF0 /* ibus */,
+			);
+			path = makibus;
+			sourceTree = "<group>";
+		};
+		1428582426D9741300480DF0 /* ibus */ = {
+			isa = PBXGroup;
+			children = (
+				1428582526D9741300480DF0 /* ibusenginedesc.h */,
+				1428582626D9741300480DF0 /* ibusproperty.h */,
+				1428582726D9741300480DF0 /* ibusattrlist.h */,
+				1428582826D9741300480DF0 /* ibusinputcontext.h */,
+				1428582926D9741300480DF0 /* ibusobject.h */,
+				1428582A26D9741300480DF0 /* ibusbus.h */,
+				1428582B26D9741300480DF0 /* ibusservice.h */,
+				1428582C26D9741300480DF0 /* ibusversion.h */,
+				1428582D26D9741300480DF0 /* ibustypes.h */,
+				1428582E26D9741300480DF0 /* ibustext.h */,
+				1428582F26D9741300480DF0 /* ibuskeymap.h */,
+				1428583026D9741300480DF0 /* ibusattribute.h */,
+				1428583126D9741300480DF0 /* ibus.h */,
+				1428583226D9741300480DF0 /* ibusdebug.h */,
+				1428583326D9741300480DF0 /* ibuskeys.h */,
+				1428583426D9741300480DF0 /* ibusserializable.h */,
+				1428583526D9741300480DF0 /* ibuscomponent.h */,
+				1428583626D9741300480DF0 /* ibushotkey.h */,
+				1428583726D9741300480DF0 /* ibuserror.h */,
+				1428583826D9741300480DF0 /* ibusenumtypes.h */,
+				1428583926D9741300480DF0 /* ibusconfig.h */,
+				1428583A26D9741300480DF0 /* ibuskeysyms.h */,
+				1428583B26D9741300480DF0 /* ibuslookuptable.h */,
+				1428583C26D9741300480DF0 /* ibusemoji.h */,
+				1428583D26D9741300480DF0 /* ibusxml.h */,
+				1428583E26D9741300480DF0 /* ibuspanelservice.h */,
+				1428583F26D9741300480DF0 /* ibusengine.h */,
+				1428584026D9741300480DF0 /* ibusconfigservice.h */,
+				1428584126D9741300480DF0 /* ibusregistry.h */,
+				1428584226D9741300480DF0 /* ibusutil.h */,
+				1428584326D9741300480DF0 /* ibusenginesimple.h */,
+				1428584426D9741300480DF0 /* ibusshare.h */,
+				1428584526D9741300480DF0 /* ibusfactory.h */,
+				1428584626D9741300480DF0 /* ibusproplist.h */,
+				1428584726D9741300480DF0 /* ibusproxy.h */,
+				1428584826D9741300480DF0 /* ibusobservedpath.h */,
+				1428584926D9741300480DF0 /* ibuskeysyms-compat.h */,
+			);
+			path = ibus;
+			sourceTree = "<group>";
+		};
 		14D012FE25F3AA73004C36F8 = {
 			isa = PBXGroup;
 			children = (
+				1428582126D967FD00480DF0 /* makibus */,
+				142857B926D967C400480DF0 /* ibus-libpinyin */,
 				142857A726D965C100480DF0 /* macos-ime-panel */,
 				14D0132325F3AAC1004C36F8 /* data */,
 				14D0131C25F3AAC1004C36F8 /* lib */,
@@ -341,6 +605,7 @@
 				14D0134825F3AAC1004C36F8 /* addon_pinyin_index.bin in Resources */,
 				14E9C8F325FE3A1600A2D23F /* LibpinyinDefaultConfig.plist in Resources */,
 				14D0134B25F3AAC1004C36F8 /* people.bin in Resources */,
+				1428581426D967F300480DF0 /* special_table in Resources */,
 				14D0134625F3AAC1004C36F8 /* science.bin in Resources */,
 				14D0134425F3AAC1004C36F8 /* geology.bin in Resources */,
 				14D0134F25F3AAC1004C36F8 /* technology.bin in Resources */,
@@ -375,17 +640,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				142857B526D965C100480DF0 /* MacOSIMETheme.m in Sources */,
+				1428581726D967F300480DF0 /* PYExtEditor.cc in Sources */,
+				1428581526D967F300480DF0 /* PYPFullPinyinEditor.cc in Sources */,
+				1428581626D967F300480DF0 /* PYPPhoneticEditor.cc in Sources */,
+				1428580926D967F300480DF0 /* PYPPinyinEditor.cc in Sources */,
+				1428580C26D967F300480DF0 /* PYEngine.cc in Sources */,
+				1428581126D967F300480DF0 /* PYEditor.cc in Sources */,
+				1428580B26D967F300480DF0 /* PYPinyinProperties.cc in Sources */,
+				1428581926D967F300480DF0 /* PYPSuggestionCandidates.cc in Sources */,
+				1428581C26D967F300480DF0 /* PYPConfig.cc in Sources */,
 				142857B226D965C100480DF0 /* MacOSIMEPanel.m in Sources */,
 				14E6DC7726077E4F00CB1834 /* LibpinyinCandidates.m in Sources */,
 				14D2F046260A01E9005C21A9 /* Utils.m in Sources */,
+				1428581B26D967F300480DF0 /* PYPDoublePinyinEditor.cc in Sources */,
 				14D2F051260BCE84005C21A9 /* LibpinyinPunctEditor.m in Sources */,
+				1428581026D967F300480DF0 /* PYEnglishEditor.cc in Sources */,
 				14D2F04A260A0E1E005C21A9 /* LibpinyinDoublePinyinEditor.m in Sources */,
 				14D0131425F3AA74004C36F8 /* main.m in Sources */,
 				1412251025F8B3CB006D6BB2 /* LibpinyinConfig.m in Sources */,
+				1428581A26D967F300480DF0 /* PYPBopomofoEditor.cc in Sources */,
 				144009E725F933EC0023D072 /* MakibusLibpinyinController.m in Sources */,
+				1428580526D967F300480DF0 /* PYHalfFullConverter.cc in Sources */,
+				1428580326D967F300480DF0 /* PYSimpTradConverter.cc in Sources */,
+				1428580E26D967F300480DF0 /* PYPCloudCandidates.cc in Sources */,
+				1428580F26D967F300480DF0 /* PYPLuaConverterCandidates.cc in Sources */,
+				1428580A26D967F300480DF0 /* PYLibPinyin.cc in Sources */,
+				1428581E26D967F300480DF0 /* PYPSuggestionEditor.cc in Sources */,
+				1428581826D967F300480DF0 /* PYPPinyinEngine.cc in Sources */,
 				144009D025F8D96F0023D072 /* LibpinyinBackend.m in Sources */,
 				144009C825F8CD4B0023D072 /* LibpinyinFullPinyinEditor.m in Sources */,
+				1428581F26D967F300480DF0 /* PYConfig.cc in Sources */,
 				14D0130C25F3AA73004C36F8 /* AppDelegate.m in Sources */,
+				1428580826D967F300480DF0 /* PYPEmojiCandidates.cc in Sources */,
+				1428580626D967F300480DF0 /* PYPTradCandidates.cc in Sources */,
+				1428581D26D967F300480DF0 /* PYPLibPinyinCandidates.cc in Sources */,
+				1428580D26D967F300480DF0 /* PYPLuaTriggerCandidates.cc in Sources */,
+				1428580426D967F300480DF0 /* PYStrokeEditor.cc in Sources */,
+				1428581326D967F300480DF0 /* PYFallbackEditor.cc in Sources */,
+				1428581226D967F300480DF0 /* PYPunctEditor.cc in Sources */,
 				14E6DC7C26078D1800CB1834 /* Candidates.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
